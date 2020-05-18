@@ -4,12 +4,12 @@ let total = 0;
 // tslint:disable-next-line:prefer-for-of
 for (let index = 0; index < valores.length; index++) {
     const element = valores[index];
-    if (index % 2 === 0) {
+    if (index % 3 === 0) {
         total += element;
     }
 }
 console.log("Total: " + total);
 /*
-  Total apresentado é 88.
-  Correto conforme regras deveria ser 45
+  Total apresentado é 38.
+  Correto conforme regras deveria ser 55
 */
